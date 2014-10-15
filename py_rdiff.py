@@ -46,7 +46,6 @@ def rsync_sig(fname):
 			sig=_librsync.fopen(sig_f_name, 'wb')
 
 			if (_librsync.rs_sig_file(orig, sig, 2048, 8, None) != 0 ):
-				_librsync.rs_sig_file(orig, sig, 2048, 8, None)
 				raise Exception("librsync call failed")
 
 			_librsync.fclose(orig)
