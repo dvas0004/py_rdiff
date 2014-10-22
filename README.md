@@ -3,7 +3,7 @@ PY_RDIFF
 
 A python module providing a (thin) [ctypes](https://docs.python.org/2/library/ctypes.html) wrapper around [librsync](https://github.com/librsync/librsync). Inspiration for this module comes primarily from [python-librsync](https://pypi.python.org/pypi/python-librsync/0.1-5). Librsync API was researched from: [http://rproxy.samba.org/doxygen/librsync/refman.pdf](http://rproxy.samba.org/doxygen/librsync/refman.pdf)
 
-Like python-librsync, py_rdiff provides identical functionality to the linux command *rdiff* (http://linux.die.net/man/1/rdiff)[http://linux.die.net/man/1/rdiff], in that the main actions that can be performed are:
+Like python-librsync, py_rdiff provides identical functionality to the linux command *rdiff* [http://linux.die.net/man/1/rdiff](http://linux.die.net/man/1/rdiff), in that the main actions that can be performed are:
 
 * creating a file signature (py_rdiff.rysnc_sig)
 * creating a file delta (py_rdiff.rsync_delta)
